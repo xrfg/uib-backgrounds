@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: mistyrose;
+}
+
+.content-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-gray {
+  background-color: lightgray;
+}
+
+/* hero */
+
+.hero {
+  height: 600px;
+  padding: 60px 0;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(147, 243, 134, 0.514)
+    ),
+    url(../assets/images/urani.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(70, 255, 162);
+}
+
+.hero-headline {
+  width: 80%;
+  font-size: 52px;
+}
+
+.hero-lead {
+  font-size: 26px;
+}
+
+/* lemons section */
+.section-lemons {
+  padding: 120px 0 60px;
+  background-image: url(../assets/images/murmuration.jpeg);
+  background-size: auto 120px;
+  background-repeat: repeat-x;
+}
+
+/* gradient section */
+
+.section-gradient {
+  background-image: linear-gradient(
+      45deg,
+      rgba(255, 105, 180, 0.63),
+      rgba(255, 192, 203, 0.527)
+    ),
+    linear-gradient(45deg, rgba(208, 255, 0, 0.568), rgba(0, 0, 255, 0.568));
+  /* background-size: auto 50px; */
+  padding: 60px 0;
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, 100px;
+  color: rgb(89, 0, 107);
+}
